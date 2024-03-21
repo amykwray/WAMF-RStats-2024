@@ -544,12 +544,14 @@ map("worldHires", xlim = c(-20,55), ylim=c(-40,40))
 map("worldHires", "Nigeria", add = TRUE, col = "green4", fill = TRUE)
 map("worldHires", "Cameroon", add = TRUE, col = "yellow", fill = TRUE)
 ```
+![image](https://github.com/amykwray/WAMF-RStats-2024/blob/3d06c39bbf422e582aeeb962fd3148e904b05741/p0.png)
 
 zoom in more:
 
 ```{r}
 map("worldHires", "Nigeria", xlim = c(0,20), ylim = c(-5,15), col = "gray90", fill = TRUE)
 ```
+![image](https://github.com/amykwray/WAMF-RStats-2024/blob/3d06c39bbf422e582aeeb962fd3148e904b05741/p1.png)
 
 challenge: make your own map by changing the colors or scales of the map:
 
@@ -583,7 +585,9 @@ Afficher les palettes:
 unikn::seecol(my_colors)
 unikn::seecol(my_colors2)
 ```
+![image](https://github.com/amykwray/WAMF-RStats-2024/blob/3d06c39bbf422e582aeeb962fd3148e904b05741/p2.png)
 
+![image](https://github.com/amykwray/WAMF-RStats-2024/blob/3d06c39bbf422e582aeeb962fd3148e904b05741/p3.png)
 more figures with your custom palettes: create some fake data:
 
 plus de figures avec vos palettes personnalisées: créer de fausses données:
@@ -607,13 +611,17 @@ ggplot(dd, aes(x = ID, y = v1, fill = factor(ID))) + # input your data and aesth
   geom_point(pch = 1) + # add points over the boxplots (includes the outlier) / ajouter des points sur les boxplots (inclut la valeur aberrante)
   scale_fill_manual(values = my_colors) + # manually change the colors / changer manuellement les couleurs
   theme_minimal() # set the overall plot theme / définir le thème général de l'intrigue
+````
+![image](https://github.com/amykwray/WAMF-RStats-2024/blob/3d06c39bbf422e582aeeb962fd3148e904b05741/p4.png)
 
+```{r}
 ggplot(dd, aes(x = v2, y = ID, fill = ID)) +
   geom_density_ridges(alpha = 0.8) + # alpha changes the transparency / alpha change la transparence
   scale_fill_manual(values = my_colors) +
   scale_y_discrete(limits = rev(df$ID)) + # change the scale / changer d'échelle
   theme_classic() # see a different theme / voir un thème différent
 ```
+![image](https://github.com/amykwray/WAMF-RStats-2024/blob/3d06c39bbf422e582aeeb962fd3148e904b05741/p5.png)
 
 beautiful!!!!
 
