@@ -77,9 +77,13 @@ y[1]
 (x + 2)/2
 ```
 
-phrases or characters need to be in quotation marks it wouldn't be a coding class without some "hello world!":
+phrases or characters need to be in quotation marks
 
-expressions ou caractères doivent être entre guillemets ce ne serait pas un cours de codage sans un "hello world!":
+it wouldn't be a coding class without some "hello world!":
+
+expressions ou caractères doivent être entre guillemets 
+
+ce ne serait pas un cours de codage sans un "hello world!":
 
 ```{r, echo = TRUE}
 print("hello world!")
