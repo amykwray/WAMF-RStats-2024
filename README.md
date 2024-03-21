@@ -125,7 +125,9 @@ what is "a" now?
 
 qu'est-ce que "a" maintenant?
 
-creating a data matrix: cbind: binds lists by columns, rbind: binds lists by rows création d'une matrice de données: cbind: lie les listes par colonnes, rbind: lie les listes par lignes
+creating a data matrix: cbind: binds lists by columns, rbind: binds lists by rows 
+
+création d'une matrice de données: cbind: lie les listes par colonnes, rbind: lie les listes par lignes
 
 ```{r, echo = TRUE}
 m <- cbind(a,b)
