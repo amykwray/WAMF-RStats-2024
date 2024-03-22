@@ -4,13 +4,13 @@
 
 ### GETTING STARTED / COMMENCER
 
-what are these hashtags?? hashtags let you write text in an R script but it doesn't actually run the code. that will make sense later but basically, putting a hashtag in front of text lets you take notes and annotate your R scripts, which is a good practice so you don't forget what you did or why...
+hashtags let you write text in an R script but it doesn't actually run the code. that will make sense later but basically, putting a hashtag in front of text lets you take notes and annotate your R scripts, which is a good practice so you don't forget what you did or why...
 
 ```{r, echo = TRUE}
 #### if you want to create a heading you need hashtags on both sides ####
 ```
 
-c'est quoi ces hashtags ?? les hashtags vous permettent d'écrire du texte dans un script R mais il n'exécute pas réellement le code. cela aura du sens plus tard mais en gros, mettre un hashtag devant le texte permet de prendre des notes et annotez vos scripts R, ce qui est une bonne pratique pour ne pas oublier ce que tu as fait ou pourquoi...
+les hashtags vous permettent d'écrire du texte dans un script R mais il n'exécute pas réellement le code. cela aura du sens plus tard mais en gros, mettre un hashtag devant le texte permet de prendre des notes et annotez vos scripts R, ce qui est une bonne pratique pour ne pas oublier ce que tu as fait ou pourquoi...
 
 ```{r, echo = TRUE}
 #### si vous souhaitez créer un titre, ####
@@ -319,7 +319,9 @@ regardez un sous-ensemble de données (lignes 1 à 100):
 View(df[1:100,])
 ```
 
-look at a subset of certain rows regarde un sous-ensemble de certaines lignes
+look at a subset of certain rows 
+
+regarde un sous-ensemble de certaines lignes
 
 ```{r, echo = TRUE, eval = FALSE}
 names(df)
@@ -493,6 +495,8 @@ citations pour un package:
 citation("ggplot2")
 ```
 
+open a new window
+
 ouvrir une nouvelle fenêtre
 
 ```{r, eval = FALSE}
@@ -594,6 +598,7 @@ unikn::seecol(my_colors2)
 ![image](https://github.com/amykwray/WAMF-RStats-2024/blob/3d06c39bbf422e582aeeb962fd3148e904b05741/p2.png)
 
 ![image](https://github.com/amykwray/WAMF-RStats-2024/blob/3d06c39bbf422e582aeeb962fd3148e904b05741/p3.png)
+
 more figures with your custom palettes: create some fake data:
 
 plus de figures avec vos palettes personnalisées: créer de fausses données:
